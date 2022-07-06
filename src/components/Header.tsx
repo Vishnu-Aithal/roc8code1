@@ -5,7 +5,8 @@ export const Header = () => {
                 className="h-2/4 ml-5 my-auto"
                 src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
                 alt="flipkart logo"
-            />
+            />{" "}
+            <h2 className="italic font-semibold text-white mt-2 ml-2">Clone</h2>
         </header>
     );
 };
