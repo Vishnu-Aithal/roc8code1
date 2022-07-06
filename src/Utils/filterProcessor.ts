@@ -8,18 +8,18 @@ export const filterProcessor = (
     let filteredProducts = [...products];
 
     if (filter.brand.length > 0) {
-        filteredProducts = products.filter((product) =>
+        filteredProducts = filteredProducts.filter((product) =>
             filter.brand.includes(product.brand)
         );
     }
 
     if (filter.idealFor.length > 0) {
-        filteredProducts = products.filter((product) =>
+        filteredProducts = filteredProducts.filter((product) =>
             filter.idealFor.includes(product.idealFor)
         );
     }
     if (filter.size.length > 0) {
-        filteredProducts = products.filter((product) =>
+        filteredProducts = filteredProducts.filter((product) =>
             filter.size.includes(product.size)
         );
     }
